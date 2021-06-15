@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("lake.jpg");
+  background-size: cover;
+  overflow: auto;
+}
+
+h1 {
+    position: absolute;
+    left: 380px;
+    top: 400px;
+    color: #fff;
+    font-size: 55px;
+}
+
+.nav {
+    overflow: auto;
+    width: 50%;
+    
+    
+}
+
+.nav a {
+    float: right;
+    width: 25%;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav a:hover {
+    background: #999;
+}
+
